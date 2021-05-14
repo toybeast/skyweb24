@@ -1,0 +1,50 @@
+.wrapper {
+    position: fixed;
+
+}
+.foo1 {
+    display: inline-block;
+    float: left;
+}
+.foo2 {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding-top: 15%;
+}
+.days {
+    font-family: 'Roboto', sans-serif;
+}
+.no-click {
+    pointer-events: visiblePainted;
+}
+.no-click2 {
+    pointer-events: none;
+}
+.active{
+    background:lawngreen;
+    color: white;
+}
+td {
+    background:whitesmoke;
+
+}
+.hover:hover {
+    background: lawngreen;
+}
+.red {
+    background-color: red;
+    color: black;
+    pointer-events: visiblePainted;
+}
+
+.gray {
+    color: lightgray;
+}
+
+.reserved
+{
+    text-decoration: none;
+    color: green;
+    pointer-events: none;
+}
